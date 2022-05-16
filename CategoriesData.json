@@ -1,0 +1,18 @@
+[
+    {
+      "id": 0,
+      "title": "Pizza",
+      "image":"https://cdn-icons-png.flaticon.com/512/3132/3132693.png"
+    },
+    {
+      "id": 1,
+      "title": "Seafood",
+      "image":"https://cdn-icons-png.flaticon.com/512/2619/2619569.png"
+    },
+    {
+      "id": 2,
+      "title": "Soft Drinks",
+      "image":"https://aux.iconspalace.com/uploads/coke-cola-icon-256.png"
+    }
+    
+  ]

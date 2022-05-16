@@ -1,0 +1,42 @@
+[
+    {
+      "id": 0,
+      "title": "Primavera Pizza",
+      "image":"https://i.pinimg.com/originals/45/eb/98/45eb98c8637d591a1bde451eb1bce941.png",
+      "rate":"4.4",
+      "weight":"540 gr",
+      "cat":"pizza",
+      "price":"5.99",
+      "size":"Medium 14''",
+      "crust":"Thin Crust",
+      "time":45,
+      "fav":false
+    },
+    {
+      "id": 1,
+      "title": "Pepporoni Pizza",
+      "image":"https://i.pinimg.com/originals/45/eb/98/45eb98c8637d591a1bde451eb1bce941.png",
+      "rate":"5.0",
+      "weight":"550 gr",
+      "cat":"pizza",
+      "price":"12.99",
+      "size":"Medium 18''",
+      "crust":"Thin Crust",
+      "time":60,
+      "fav":false
+    },
+    {
+      "id": 2,
+      "title": "Shrimp Pizza",
+      "image":"https://i.pinimg.com/originals/45/eb/98/45eb98c8637d591a1bde451eb1bce941.png",
+      "rate":"4.4",
+      "weight":"560 gr",
+      "cat":"pizza",
+      "price":"99.99",
+      "size":"Medium 16''",
+      "crust":"Thin Crust",
+      "time":80,
+      "fav":false
+    }
+    
+  ]
