@@ -13,6 +13,9 @@
       "id": 2,
       "title": "Soft Drinks",
       "image":"https://aux.iconspalace.com/uploads/coke-cola-icon-256.png"
-    }
+    },
+    {"id":3,
+    "title":"All",
+    "image":"https://cdn-icons-png.flaticon.com/512/5110/5110770.png"}
     
   ]
