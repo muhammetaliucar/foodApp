@@ -1,22 +1,16 @@
 import React, { useState } from "react";
-import {
-  View,
-  SafeAreaView,
-  Text,
-  TouchableOpacity,
-  Image,
-  Alert,
-  FlatList,
-} from "react-native";
+import { View, Text, TouchableOpacity, FlatList } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
-
 import dataProducts from "./../../ProductsData.json";
 import ProductsCard from "./components/ProductsCard";
 import { useNavigation } from "@react-navigation/native";
-import { MaterialIcons } from "@expo/vector-icons";
 
 const FavouriteProducts = () => {
   const navigation = useNavigation();
+  const data = dataProducts.filter((le) => le.fav === true);
+  const [price, setPrice] = useState(0);
+
+  data.map((x) => console.log(x.price));
 
   return (
     <View>
@@ -44,10 +38,7 @@ const FavouriteProducts = () => {
         </TouchableOpacity>
         <Text style={{ fontSize: 34, fontWeight: "500" }}>Favourite Products</Text>
       </View>
-      <FlatList
-        data={dataProducts.filter((le) => le.fav === true)}
-        renderItem={({ item }) => <ProductsCard data={item} />}
-      />
+      <FlatList data={data} renderItem={({ item }) => <ProductsCard data={item} />} />
     </View>
   );
 };

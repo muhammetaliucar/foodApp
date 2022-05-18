@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { View, SafeAreaView, Text, TouchableOpacity, Image, Alert } from "react-native";
+import {
+  View,
+  SafeAreaView,
+  Text,
+  TouchableOpacity,
+  Image,
+  Alert,
+  TouchableWithoutFeedback,
+} from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import { Entypo } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
@@ -19,7 +27,6 @@ const Details = ({ route }) => {
     });
   };
 
-  console.log(data);
   const navigation = useNavigation();
   return (
     <SafeAreaView style={{ flex: 1, marginHorizontal: 20 }}>
@@ -116,6 +123,20 @@ const Details = ({ route }) => {
           source={{ uri: data.image }}
           style={{ height: 300, width: 300, resizeMode: "contain" }}
         />
+      </View>
+      <View>
+        <TouchableOpacity
+          style={{
+            paddingVertical: 17,
+            paddingHorizontal: 20,
+            alignItems: "center",
+            backgroundColor: "#F5CA48",
+            borderRadius: 25,
+          }}
+          onPress={() => console.log("1")}
+        >
+          <Text style={{ fontWeight: "bold", fontSize: 17 }}> Place an order ></Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
