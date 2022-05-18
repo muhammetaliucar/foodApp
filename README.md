@@ -7,4 +7,6 @@ Figma Link:https://www.figma.com/file/gfIboy4J44lvD9CoDr62rH/Food-App?node-id=0%
 <div>
   <img width="300" height="500" src="https://user-images.githubusercontent.com/63070070/168593710-77e876ff-0667-4767-a558-9c48bbf13517.png" />
 <img width="300" height="500" src="https://user-images.githubusercontent.com/63070070/168594514-d05464aa-c739-47c2-ba2e-ccecba9651f6.png" />
+  <img width="300" height="500" src="https://user-images.githubusercontent.com/63070070/168751328-823dcbd9-aec3-4d44-bf1e-c50c813905cc.png" />
   </div>
+
